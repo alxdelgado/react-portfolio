@@ -4,13 +4,13 @@ import './App.css';
 
 import NavBar from './components/nav-bar/nav-bar.component';
 import HomePage from './pages/homepage/homepage.component';  
+import FooterNav from './components/footer/footer.component';
 
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <HomePage />
+      <FooterNav />
     </div>
   );
 }
