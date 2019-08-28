@@ -9,7 +9,7 @@ const FooterNav = () => (
     <footer className='footer'>
         <div className='footer_container'>
                 <div className='footer_col'>
-                    <h4 className='footer_title'>Professional</h4>
+                    <h4 className='footer_title' id='professional'>Professional</h4>
                     <ul className='footer_items'>
 
                         <li className='footer_item'>
@@ -20,6 +20,20 @@ const FooterNav = () => (
                         </li>
                         <li className='footer_item'>
                             <a href="https://www.linkedin.com/in/alexdelgadous/" className='footer_link-item'>LinkedIn</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div className='footer_col' id='socials'>
+                    <h4 className='footer_title'>Socials</h4>
+                    <ul className='footer-items' id='socials'>
+
+                        <li className='footer_item'>
+                            <a href='/' className='footer_link-item'>Medium</a>
+                        </li>
+                        <li className='footer_item'>
+                            <a href='/' className='footer_link-item'>Twitter</a>
                         </li>
 
                     </ul>
