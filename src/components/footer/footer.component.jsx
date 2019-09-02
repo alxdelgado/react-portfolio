@@ -8,9 +8,9 @@ import './footer.styles.scss';
 const FooterNav = () => (
     <footer className='footer'>
         <div className='footer_container'>
-                <div className='footer_col'>
-                    <h4 className='footer_title' id='professional'>Professional</h4>
-                    <ul className='footer_items'>
+                <div className='footer_col' id='column_pro'>
+                    <h4 className='footer_title' id='professional_heading'>Professional</h4>
+                    <ul className='footer_items' id='items_pro'>
 
                         <li className='footer_item'>
                             <a href="https://github.com/alxdelgado" className='footer_link-item'>Github</a>
@@ -25,9 +25,9 @@ const FooterNav = () => (
                     </ul>
                 </div>
 
-                <div className='footer_col' id='socials'>
-                    <h4 className='footer_title'>Socials</h4>
-                    <ul className='footer-items' id='socials'>
+                <div className='footer_col' id='column_socials'>
+                    <h4 className='footer_title' id='socials_heading'>Social</h4>
+                    <ul className='footer-items' id='items_socials'>
 
                         <li className='footer_item'>
                             <a href='/' className='footer_link-item'>Medium</a>
