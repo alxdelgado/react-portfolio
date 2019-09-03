@@ -11,8 +11,8 @@
 
 .footer_col {
     text-align: left;
-    margin-left: 500px;
-    margin-inline-end: -200px;
+    margin-left: 32em;
+    margin-inline-end: -15em;
 }
 
 .footer_title {
@@ -89,26 +89,28 @@
         display: row;
 
         #column_pro {
-            margin-left: 22em;
+            margin-left: 24em;
             margin-inline-end: -14em;
 
             #professional_heading {
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
 
             #items_pro {
                 font-size: 1.5rem;
+                margin-top: -30px;
             }
         }
 
         #column_socials {
 
             #socials_heading {
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
 
             #items_socials {
                 font-size: 1.5rem;
+                margin-top: -30px;
             }
         }
     }
@@ -121,15 +123,16 @@
         display: row;
 
         #column_pro {
-            margin-left: 17em;
+            margin-left: 19em;
             margin-inline-end: -21em;
 
             #professional_heading {
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
 
             #items_pro {
                 font-size: 1rem;
+                margin-top: -10px;
             }
         }
 
@@ -137,11 +140,12 @@
             
 
             #socials_heading {
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
 
             #items_socials {
                 font-size: 1rem;
+                margin-top: -10px;
             }
         }
     }
@@ -150,29 +154,32 @@
 // Tablet - 768px
 @media screen and (max-width: 768px) {
     .footer_container {
-        display: row;
+        flex-direction: row;
+        
 
         #column_pro {
-            margin-left: 13em;
+            margin-left: 11.5em;
             margin-inline-end: -23em;
 
             #professional_heading {
-                font-size: 1.5rem;
+                font-size: 1.8rem;
             }
 
             #items_pro {
                 font-size: 1rem;
+                margin-top: -20px;
             }
         }
 
         #column_socials {
 
             #socials_heading {
-                font-size: 1.5rem;
+                font-size: 1.8rem;
             }
 
             #items_socials {
                 font-size: 1rem;
+                margin-top: -20px;
             }
         }
     }
@@ -183,28 +190,33 @@
 @media screen and (max-width: 425px) {
     .footer_container {
         display: column;
+        height: 30vh;
 
         #column_pro {
-            margin-left: 5.5em;
-            margin-inline-end: -25em;
+            margin-left: 5.3em;
+            margin-inline-end: -27em;
+            margin-top: 20px;
 
             #professional_heading {
-                font-size: 1rem;
+                font-size: 1.3rem;
             }
 
             #items_pro {
-                font-size: 0.5rem;
+                font-size: 0.7rem;
+                margin-top: -10px;
             }
         }
 
         #column_socials {
+            margin-top: 20px;
 
             #socials_heading {
-                font-size: 1rem;
+                font-size: 1.3rem;
             }
 
             #items_socials {
-                font-size: 0.5rem;
+                font-size: 0.7rem;
+                margin-top: -10px;
             }
         }
     }
@@ -214,12 +226,12 @@
 // Mobile Medium - 375px
 @media screen and (max-width: 375px) {
     .footer_container {
-        display: column;
+        flex-direction: column;
         height: 35vh;
 
 
         #column_pro {
-            margin-left: 2em;
+            margin-left: 3em;
 
             #professional_heading {
                 font-size: 1rem;
@@ -227,12 +239,13 @@
 
             #items_pro {
                 font-size: 0.5rem;
+                margin-top: -10px;
             }
         }
 
         #column_socials {
-            margin-left: 19em;
-            margin-top: 7em;
+            margin-left: 3em;
+            margin-top: -13px;
             
             #socials_heading {
                 font-size: 1rem;
@@ -240,6 +253,7 @@
 
             #items_socials {
                 font-size: 0.5rem;
+                margin-top: -10px;
             }
         }
     }
@@ -255,6 +269,7 @@
 
         #column_pro {
             margin-left: 2em;
+            margin-top: 5px;
 
             #professional_heading {
                 font-size: 1rem;
@@ -262,12 +277,13 @@
 
             #items_pro {
                 font-size: 0.5rem;
+                margin-top: -10px;
             }
         }
 
         #column_socials {
-            margin-left: 19em;
-            margin-top: 7em;
+            margin-left: 2em;
+            margin-top: -10px;
             
             #socials_heading {
                 font-size: 1rem;
@@ -275,6 +291,7 @@
 
             #items_socials {
                 font-size: 0.5rem;
+                margin-top: -10px;
             }
         }
     }
