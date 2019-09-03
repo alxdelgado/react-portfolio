@@ -12,6 +12,7 @@
 .footer_col {
     text-align: left;
     margin-left: 500px;
+    margin-inline-end: -200px;
 }
 
 .footer_title {
@@ -20,27 +21,35 @@
 }
 
 .footer_items {
-    padding-left: 0;
+    padding: 0px;
 }
 
 .footer_item {
     list-style-type: none;
-    padding: 3px; 
-    
+    padding: 3px;
+    padding-left: 0px;   
 }
 
-#socials {
-    padding-left: 0;
+#items_pro {
+    margin-top: -10px;
+}
+
+#items_socials {
+    padding-left: 0px;
+    margin-top: -10px;
 }
 
 .footer_link-item {
     color: #f0f0f0; 
     cursor: crosshair;
+    padding: 0px;
 }
+
 
 // Media Queries // 
 
-@media screen and (max-width: 2560px) {
+// 4k Screens
+@media screen and (min-width: 2560px) {
     .footer_container {
         display: row;
 
@@ -74,13 +83,14 @@
     }
 }
 
+// Laptop Large - 1440px
 @media screen and (max-width: 1440px) {
     .footer_container {
         display: row;
 
         #column_pro {
-            margin-left: 20em;
-            margin-inline-end: -13em;
+            margin-left: 22em;
+            margin-inline-end: -14em;
 
             #professional_heading {
                 font-size: 3rem;
@@ -105,13 +115,14 @@
 
 }
 
+// Laptop - 1024px 
 @media screen and (max-width: 1024px) {
     .footer_container {
         display: row;
 
         #column_pro {
-            margin-left: 18em;
-            margin-inline-end: -20em;
+            margin-left: 17em;
+            margin-inline-end: -21em;
 
             #professional_heading {
                 font-size: 2rem;
@@ -123,6 +134,7 @@
         }
 
         #column_socials {
+            
 
             #socials_heading {
                 font-size: 2rem;
@@ -135,32 +147,135 @@
     }
 }
 
+// Tablet - 768px
 @media screen and (max-width: 768px) {
     .footer_container {
         display: row;
 
-        #columns_pro {
-            
+        #column_pro {
+            margin-left: 13em;
+            margin-inline-end: -23em;
+
+            #professional_heading {
+                font-size: 1.5rem;
+            }
+
+            #items_pro {
+                font-size: 1rem;
+            }
+        }
+
+        #column_socials {
+
+            #socials_heading {
+                font-size: 1.5rem;
+            }
+
+            #items_socials {
+                font-size: 1rem;
+            }
+        }
+    }
+        
+}
+
+// Mobile Large - 425px
+@media screen and (max-width: 425px) {
+    .footer_container {
+        display: column;
+
+        #column_pro {
+            margin-left: 5.5em;
+            margin-inline-end: -25em;
+
             #professional_heading {
                 font-size: 1rem;
+            }
+
+            #items_pro {
+                font-size: 0.5rem;
+            }
+        }
+
+        #column_socials {
+
+            #socials_heading {
+                font-size: 1rem;
+            }
+
+            #items_socials {
+                font-size: 0.5rem;
+            }
+        }
+    }
+
+}
+
+// Mobile Medium - 375px
+@media screen and (max-width: 375px) {
+    .footer_container {
+        display: column;
+        height: 35vh;
+
+
+        #column_pro {
+            margin-left: 2em;
+
+            #professional_heading {
+                font-size: 1rem;
+            }
+
+            #items_pro {
+                font-size: 0.5rem;
+            }
+        }
+
+        #column_socials {
+            margin-left: 19em;
+            margin-top: 7em;
+            
+            #socials_heading {
+                font-size: 1rem;
+            }
+
+            #items_socials {
+                font-size: 0.5rem;
             }
         }
     }
 }
 
-// @media screen and (max-width: 425px) {
-//     .footer_container {
-//         flex-direction: column;
-//         height: 50vh;
 
-//         .footer_col {
-//             padding-left: 0px;
-//         }
-//     }
-// }
+// Mobile Small - 320px 
+@media screen and (max-width: 320px) {
+    .footer_container {
+        display: column;
+        height: 35vh;
 
-// @media screen and (max-width: 320px) {
-//     .footer_container {
-//         flex-direction: column;
-//     }
-// }
+
+        #column_pro {
+            margin-left: 2em;
+
+            #professional_heading {
+                font-size: 1rem;
+            }
+
+            #items_pro {
+                font-size: 0.5rem;
+            }
+        }
+
+        #column_socials {
+            margin-left: 19em;
+            margin-top: 7em;
+            
+            #socials_heading {
+                font-size: 1rem;
+            }
+
+            #items_socials {
+                font-size: 0.5rem;
+            }
+        }
+    }
+}
