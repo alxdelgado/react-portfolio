@@ -1,0 +1,35 @@
+// Style Rules
+.nav_wrapper {
+    width: 100vw;
+    height: 10vh;
+    background-color: grey; 
+    overflow: hidden;
+}
+
+.nav_container {
+    display: flex; 
+}
+
+.resume_link {
+    display: flex; 
+    flex-direction: flex-start;
+    margin-top: 30px;
+    padding-left: 15em;
+}
+
+.bucket-list_link {
+    display: flex; 
+    flex-direction: flex-start;
+    margin-top: -18px;
+    padding-left: 25em;
+}
+
+.github {
+    display: flex; 
+    justify-content: flex-end;
+    margin-top: -18px;
+    padding-right: 15em;
+
+
+}
+

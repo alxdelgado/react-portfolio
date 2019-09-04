@@ -10,6 +10,7 @@ import FooterNav from './components/footer/footer.component';
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <HomePage />
       <FooterNav />
     </div>

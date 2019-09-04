@@ -1,6 +1,7 @@
 // Footer Styles //
 .footer {
     width: 100vw;
+    overflow: hidden;
 }
 
 .footer_container {
@@ -190,7 +191,7 @@
 @media screen and (max-width: 425px) {
     .footer_container {
         display: column;
-        height: 30vh;
+        height: 35vh;
 
         #column_pro {
             margin-left: 5.3em;
