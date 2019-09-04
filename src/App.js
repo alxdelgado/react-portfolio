@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Switch } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,9 +11,11 @@ import FooterNav from './components/footer/footer.component';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <HomePage />
-      <FooterNav />
+      <Switch>
+        <NavBar />
+        <HomePage />
+        <FooterNav />
+      </Switch>
     </div>
   );
 }

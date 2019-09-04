@@ -1,4 +1,5 @@
-import React from 'react'; 
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './nav-bar.styles.scss'; 
  
 
@@ -13,7 +14,7 @@ const NavBar = () => (
                 <a href='/bucket-list'>Bucket List</a>
             </div>
             <div className='github' id='github'>
-                <a href='/github'>Github</a>
+                <a href='https://github.com/alxdelgado'>Github</a>
             </div>
         </div>
     </div>
