@@ -4,10 +4,12 @@
     height: 10vh;
     background-color: grey; 
     overflow: hidden;
+    box-shadow: 3px, bold;
 }
 
 .nav_container {
-    display: flex; 
+    display: flex;
+     
 }
 
 .resume_link {
@@ -15,6 +17,11 @@
     flex-direction: flex-start;
     margin-top: 30px;
     padding-left: 15em;
+    
+    #resume {
+        text-decoration: none;
+        color: whitesmoke;
+    }
 }
 
 .bucket-list_link {
@@ -22,6 +29,11 @@
     flex-direction: flex-start;
     margin-top: -18px;
     padding-left: 25em;
+    
+    #bucket-list {
+        text-decoration: none;
+        color: whitesmoke;
+    }
 }
 
 .github {
@@ -29,7 +41,78 @@
     justify-content: flex-end;
     margin-top: -18px;
     padding-right: 15em;
+    
+    
+    #github {
+        text-decoration: none;
+        color: whitesmoke;
+        
+    }
+}
 
 
+// Media Queries 
+
+// 4K Screens - 2560px 
+@media screen and (max-width: 2560px) {
+    #resume {
+        font-size: 2.5rem;
+        margin-top: 25px;
+    }
+
+    #bucket-list {
+        font-size: 2.5rem;
+        margin-top: -28px;
+        margin-left: 4em;
+        
+    }
+
+    #github {
+        font-size: 2.5rem;
+        margin-top: -28px;
+        margin-right: 5em; 
+    }
+}
+
+// Laptop Large - 1440px 
+@media screen and (max-width: 1440px) {
+    #resume {
+        font-size: 1.5rem;
+        margin-top: 2px;
+        
+    }
+
+    #bucket-list {
+        font-size: 1.5rem; 
+        margin-top: -10px;
+        margin-left: -2px;
+    }
+
+    #github {
+        font-size: 1.5rem; 
+        margin-top: -10px;
+        margin-right: 0rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #resume {
+        font-size: 1rem;
+        margin-top: -3px;
+        margin-left: -5rem;
+    }
+
+    #bucket-list {
+        font-size: 1rem;
+        margin-top: 0px;
+        margin-left: -7rem;
+    }
+
+    #github {
+        font-size: 1rem; 
+        margin-top: 0px;
+        margin-right: -5rem;
+        
+    }
 }
 

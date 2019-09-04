@@ -1,7 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Switch } from 'react-router-dom';
+import { BrowserRouter as Switch, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
+
+import ResumePage from './pages/resume/resume-page.component';
 
 import NavBar from './components/nav-bar/nav-bar.component';
 import HomePage from './pages/homepage/homepage.component';  
@@ -13,7 +15,8 @@ function App() {
     <div className="App">
       <Switch>
         <NavBar />
-        <HomePage />
+        <Route exact path='/' component={HomePage} />
+        <Route path='/resume' component={ResumePage} />
         <FooterNav />
       </Switch>
     </div>
