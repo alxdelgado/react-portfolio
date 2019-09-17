@@ -14,9 +14,7 @@
 .resume_link {
     display: flex; 
     flex-direction: flex-start;
-    margin-top: -30px;
-    padding-left: 15em;
-    
+
     #resume {
         text-decoration: none;
         color: whitesmoke;
@@ -26,8 +24,6 @@
 .bucket-list_link {
     display: flex; 
     flex-direction: flex-start;
-    margin-top: -17px;
-    padding-left: 25em;
     
     #bucket-list {
         text-decoration: none;
@@ -38,9 +34,6 @@
 .github {
     display: flex; 
     justify-content: flex-end;
-    margin-top: -17px;
-    padding-right: 15em;
-    
     
     #github {
         text-decoration: none;
@@ -56,21 +49,20 @@
 @media screen and (max-width: 2560px) {
     #resume {
         font-size: 1.5rem;
-        margin-top: 0px;
-        margin-left: 1em;
+        margin-top: 30px;
+        margin-left: 7em;
     }
 
     #bucket-list {
         font-size: 1.5rem;
-        margin-top: -10px;
-        margin-left: 4em;
-        
+        margin-top: -30px;
+        margin-left: 15em;
     }
 
     #github {
         font-size: 1.5rem;
-        margin-top: -10px;
-        margin-right: 5em; 
+        margin-top: -30px;
+        margin-right: 10em; 
     }
 }
 
