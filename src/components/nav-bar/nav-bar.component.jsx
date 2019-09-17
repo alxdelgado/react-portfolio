@@ -1,13 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-import './nav-bar.styles.scss'; 
+import './nav-bar.styles.scss';
+
+import ToggleButton from '../toggleButton/toggleButton.component';
  
 
 // NavBar 
-const NavBar = () => (
+const NavBar = props => (
     <div className='nav_wrapper'>
         <div className='nav-container'>
+            <ToggleButton />
             <div className='resume_link'>
                 <a id='resume' href='/resume'>Resume</a>
             </div>

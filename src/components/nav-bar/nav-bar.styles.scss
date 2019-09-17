@@ -4,18 +4,17 @@
     height: 10vh;
     background-color: grey; 
     overflow: hidden;
-    box-shadow: 3px, bold;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5); 
 }
 
 .nav_container {
-    display: flex;
-     
+    display: flex;     
 }
 
 .resume_link {
     display: flex; 
     flex-direction: flex-start;
-    margin-top: 30px;
+    margin-top: -30px;
     padding-left: 15em;
     
     #resume {
@@ -27,7 +26,7 @@
 .bucket-list_link {
     display: flex; 
     flex-direction: flex-start;
-    margin-top: -18px;
+    margin-top: -17px;
     padding-left: 25em;
     
     #bucket-list {
@@ -39,7 +38,7 @@
 .github {
     display: flex; 
     justify-content: flex-end;
-    margin-top: -18px;
+    margin-top: -17px;
     padding-right: 15em;
     
     
@@ -56,20 +55,21 @@
 // 4K Screens - 2560px 
 @media screen and (max-width: 2560px) {
     #resume {
-        font-size: 2.5rem;
-        margin-top: 25px;
+        font-size: 1.5rem;
+        margin-top: 0px;
+        margin-left: 1em;
     }
 
     #bucket-list {
-        font-size: 2.5rem;
-        margin-top: -28px;
+        font-size: 1.5rem;
+        margin-top: -10px;
         margin-left: 4em;
         
     }
 
     #github {
-        font-size: 2.5rem;
-        margin-top: -28px;
+        font-size: 1.5rem;
+        margin-top: -10px;
         margin-right: 5em; 
     }
 }
@@ -79,13 +79,14 @@
     #resume {
         font-size: 1.5rem;
         margin-top: 2px;
+        margin-left: -2em;
         
     }
 
     #bucket-list {
         font-size: 1.5rem; 
         margin-top: -10px;
-        margin-left: -2px;
+        margin-left: -1em;
     }
 
     #github {
@@ -115,4 +116,45 @@
         
     }
 }
+
+@media screen and (max-width: 768px) {
+    #resume {
+        font-size: 1rem;
+        margin-top: -3px;
+        margin-left: -8rem;
+    }
+
+    #bucket-list {
+        font-size: 1rem;
+        margin-top: 0px;
+        margin-left: -11rem;
+    }
+
+    #github {
+        font-size: 1rem; 
+        margin-top: 0px;
+        margin-right: -6rem;
+        
+    }
+}
+
+// @media screen and (max-width: 425px) {
+//     #resume {
+//         font-size: 0.8rem;
+//         margin-top: -1px;
+//         margin-left: -9rem;
+//     }
+
+//     #bucket-list {
+//         font-size: 0.8rem;
+//         margin-top: 4px; 
+//         margin-left: -14rem;
+//     }
+
+//     #github {
+//         font-size: 0.8rem; 
+//         margin-top: 4px;
+//         margin-right: -9rem; 
+//     }
+// }
 
