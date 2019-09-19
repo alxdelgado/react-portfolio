@@ -23,9 +23,35 @@
     background: white;
 }
 
+// Media Queries 
 
-// @media screen and (max-width: 2560px) {
-//     .toggle-button {
-//         // display: none;
-//     }
-// }
+// 4K Screens - 2560px 
+@media screen and (max-width: 2560px) {
+    .toggle-button {
+        display: none;
+    }
+}
+
+// Laptop L - 1440px
+@media screen and (max-width: 1440px) {
+    .toggle-button {
+        display: none;
+    }
+}
+
+// Laptop - 1024px 
+@media screen and (max-width: 1024px) {
+    .toggle-button {
+        display: none;
+    }
+}
+
+// Tablet - 768px 
+@media screen and (max-width: 768px) {
+    .toggle-button {
+        display: flex;
+        margin-top: 22px;
+        margin-left: 30px;
+        font-size: 1.5rem;
+    }
+}
