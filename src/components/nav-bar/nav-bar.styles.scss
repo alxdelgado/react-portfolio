@@ -42,21 +42,39 @@
     }
 }
 
+.headline_link {
+    display: flex;
+    justify-content: flex-start;
+    
+    #headline {
+        text-decoration: none;
+        color: whitesmoke;
+
+    }
+}
+
 
 // Media Queries 
 
 // 4K Screens - 2560px 
 @media screen and (max-width: 2560px) {
+    #headline {
+        font-size: 1.5rem; 
+        margin-top: 30px;
+        margin-left: 4em;
+        
+    }
+
     #resume {
         font-size: 1.5rem;
-        margin-top: 30px;
-        margin-left: 7em;
+        margin-top: -30px;
+        margin-left: 13em;
     }
 
     #bucket-list {
         font-size: 1.5rem;
         margin-top: -30px;
-        margin-left: 15em;
+        margin-left: 21em;
     }
 
     #github {
