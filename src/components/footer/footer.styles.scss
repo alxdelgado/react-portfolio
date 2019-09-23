@@ -6,7 +6,7 @@
 
 .footer_container {
     display: flex;
-    height: 35vh; 
+    height: 30vh; 
     background: #393f4d;
 }
 
@@ -18,7 +18,7 @@
 
 .footer_title {
     font-size: 1.7rem;
-    color: #1d1e22;
+    color: #d4d4dc;
 }
 
 .footer_items {
@@ -41,8 +41,9 @@
 
 .footer_link-item {
     color: #d4d4dc; 
-    cursor: crosshair;
+    cursor: pointer;
     padding: 0px;
+    text-decoration: none;
 }
 
 
@@ -94,24 +95,24 @@
             margin-inline-end: -14em;
 
             #professional_heading {
-                font-size: 2.5rem;
+                font-size: 1.5rem;
             }
 
             #items_pro {
-                font-size: 1.5rem;
-                margin-top: -30px;
+                font-size: 1rem;
+                margin-top: -10px;
             }
         }
 
         #column_socials {
 
             #socials_heading {
-                font-size: 2.5rem;
+                font-size: 1.5rem;
             }
 
             #items_socials {
-                font-size: 1.5rem;
-                margin-top: -30px;
+                font-size: 1rem;
+                margin-top: -10px;
             }
         }
     }
@@ -183,6 +184,7 @@
             #items_socials {
                 font-size: 0.7rem;
                 margin-top: -20px;
+                
             }
         }
     }

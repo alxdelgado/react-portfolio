@@ -9,11 +9,11 @@ const ResumePage = () => (
             <h1 className='resume_heading' id='resume_heading'>Resume</h1> 
             <h2 className='resume_socials'>Internet Profiles</h2>
             <p>
-                <a href='https://github.com/alxdelgado' rel='noopener'>Github</a>
-                "."
-                <a href='https://stackoverflow.com/users/11500185/alxdelgado' rel='noopener'>StackOverflow</a>
-                "."
-                <a href='https://www.linkedin.com/in/alexdelgadous/' rel='noopener'>LinkedIn</a>
+                <a href='https://github.com/alxdelgado' target='_blank' rel="noopener noreferrer">Github</a>
+                <br/>
+                <a href='https://stackoverflow.com/users/11500185/alxdelgado' target='_blank' rel="noopener noreferrer">StackOverflow</a>
+                <br/>
+                <a href='https://www.linkedin.com/in/alexdelgadous/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
             </p>
             <h1>Professional Experience</h1>
             <h3>Business Development Associate, Replicon</h3>

@@ -1,7 +1,7 @@
 // Style Rules
 .nav_wrapper {
     width: 100vw;
-    height: 10vh;
+    height: 7vh;
     background-color: #393f4d; 
     overflow: hidden;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5); 
@@ -59,55 +59,55 @@
 // 4K Screens - 2560px 
 @media screen and (max-width: 2560px) {
     #headline {
-        font-size: 1.5rem; 
-        margin-top: 30px;
-        margin-left: 2em;
+        font-size: 1rem; 
+        margin-top: 20px;
+        margin-left: 1.5em;
     }
 
     #resume {
-        font-size: 1.5rem;
-        margin-top: -30px;
-        margin-left: 13em;
+        font-size: 1rem;
+        margin-top: -20px;
+        margin-left: 10em;
     }
 
     #bucket-list {
-        font-size: 1.5rem;
-        margin-top: -30px;
-        margin-left: 21em;
+        font-size: 1rem;
+        margin-top: -20px;
+        margin-left: 17em;
     }
 
     #github {
-        font-size: 1.5rem;
-        margin-top: -30px;
-        margin-right: 10em; 
+        font-size: 1rem;
+        margin-top: -20px;
+        margin-right: 15em; 
     }
 }
 
 // Laptop Large - 1440px 
 @media screen and (max-width: 1440px) {
     #headline {
-        font-size: 1.5rem; 
-        margin-top: 30px;
+        font-size: 1rem; 
+        margin-top: 25px;
         margin-left: 2em;
     }
 
     #resume {
-        font-size: 1.5rem;
-        margin-top: -28px;
+        font-size: 1rem;
+        margin-top: -19px;
         margin-left: 10em;
         
     }
 
     #bucket-list {
-        font-size: 1.5rem; 
-        margin-top: -28px;
+        font-size: 1rem; 
+        margin-top: -19px;
         margin-left: 17em;
     }
 
     #github {
-        font-size: 1.5rem; 
-        margin-top: -28px;
-        margin-right: 14rem;
+        font-size: 1rem; 
+        margin-top: -19px;
+        margin-right: 15rem;
     }
 }
 
