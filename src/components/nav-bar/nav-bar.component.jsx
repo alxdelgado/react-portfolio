@@ -14,7 +14,7 @@ const NavBar = props => (
         <ToggleButton />
         <div className='nav-container'>
             <div className='headline_link'>
-                <a id='headline' href='/'>Delgado</a>
+                <a id='headline' href='/'><strong>Delgado</strong></a>
             </div>
             <div className='resume_link'>
                 <a id='resume' href='/resume'>Resume</a>

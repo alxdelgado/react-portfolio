@@ -2,7 +2,7 @@
 .nav_wrapper {
     width: 100vw;
     height: 10vh;
-    background-color: grey; 
+    background-color: #393f4d; 
     overflow: hidden;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5); 
 }
@@ -61,8 +61,7 @@
     #headline {
         font-size: 1.5rem; 
         margin-top: 30px;
-        margin-left: 4em;
-        
+        margin-left: 2em;
     }
 
     #resume {
@@ -86,43 +85,55 @@
 
 // Laptop Large - 1440px 
 @media screen and (max-width: 1440px) {
+    #headline {
+        font-size: 1.5rem; 
+        margin-top: 30px;
+        margin-left: 2em;
+    }
+
     #resume {
         font-size: 1.5rem;
-        margin-top: 35px;
-        margin-left: 7em;
+        margin-top: -28px;
+        margin-left: 10em;
         
     }
 
     #bucket-list {
         font-size: 1.5rem; 
         margin-top: -28px;
-        margin-left: 15em;
+        margin-left: 17em;
     }
 
     #github {
         font-size: 1.5rem; 
         margin-top: -28px;
-        margin-right: 15rem;
+        margin-right: 14rem;
     }
 }
 
 @media screen and (max-width: 1024px) {
+    #headline {
+        font-size: 1rem; 
+        margin-top: 22px;
+        margin-left: 2em;
+    }
+
     #resume {
         font-size: 1rem;
-        margin-top: 25px;
-        margin-left: 8rem;
+        margin-top: -18px;
+        margin-left: 11rem;
     }
 
     #bucket-list {
         font-size: 1rem;
         margin-top: -19px;
-        margin-left: 16rem;
+        margin-left: 19rem;
     }
 
     #github {
         font-size: 1rem; 
         margin-top: -19px;
-        margin-right: 12rem;
+        margin-right: 10rem;
         
     }
 }
@@ -140,24 +151,4 @@
         display: none; 
     }
 }
-
-// @media screen and (max-width: 425px) {
-//     #resume {
-//         font-size: 0.8rem;
-//         margin-top: -1px;
-//         margin-left: -9rem;
-//     }
-
-//     #bucket-list {
-//         font-size: 0.8rem;
-//         margin-top: 4px; 
-//         margin-left: -14rem;
-//     }
-
-//     #github {
-//         font-size: 0.8rem; 
-//         margin-top: 4px;
-//         margin-right: -9rem; 
-//     }
-// }
 

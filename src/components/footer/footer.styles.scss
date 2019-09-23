@@ -7,7 +7,7 @@
 .footer_container {
     display: flex;
     height: 35vh; 
-    background: red;
+    background: #393f4d;
 }
 
 .footer_col {
@@ -18,7 +18,7 @@
 
 .footer_title {
     font-size: 1.7rem;
-    color: #2F2F2F;
+    color: #1d1e22;
 }
 
 .footer_items {
@@ -27,21 +27,20 @@
 
 .footer_item {
     list-style-type: none;
-    padding: 3px;
-    padding-left: 0px;   
+    padding: 0.3rem; 
 }
 
 #items_pro {
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 #items_socials {
     padding-left: 0px;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .footer_link-item {
-    color: #f0f0f0; 
+    color: #d4d4dc; 
     cursor: crosshair;
     padding: 0px;
 }
@@ -65,6 +64,7 @@
             #items_pro {
                 font-size: 2.8rem;
                 margin-top: -2rem;
+
             }
         }
 
@@ -155,31 +155,33 @@
 // Tablet - 768px
 @media screen and (max-width: 768px) {
     .footer_container {
-        flex-direction: row;
+        flex-direction: column;
         
 
         #column_pro {
-            margin-left: 11.5em;
+            margin-left: 3em;
             margin-inline-end: -23em;
 
             #professional_heading {
-                font-size: 1.8rem;
+                font-size: 1.4rem;
             }
 
             #items_pro {
-                font-size: 1rem;
+                font-size: 0.7rem;
                 margin-top: -20px;
             }
         }
 
         #column_socials {
+            margin-left: 3em;
 
             #socials_heading {
-                font-size: 1.8rem;
+                font-size: 1.4rem;
+                
             }
 
             #items_socials {
-                font-size: 1rem;
+                font-size: 0.7rem;
                 margin-top: -20px;
             }
         }
@@ -191,10 +193,10 @@
 @media screen and (max-width: 425px) {
     .footer_container {
         display: column;
-        height: 35vh;
+        height: 50vh;
 
         #column_pro {
-            margin-left: 5.3em;
+            margin-left: 3em;
             margin-inline-end: -27em;
             margin-top: 20px;
 
@@ -209,7 +211,8 @@
         }
 
         #column_socials {
-            margin-top: 20px;
+            margin-top: 0px;
+            margin-left: 3em;
 
             #socials_heading {
                 font-size: 1.3rem;
@@ -228,7 +231,7 @@
 @media screen and (max-width: 375px) {
     .footer_container {
         flex-direction: column;
-        height: 35vh;
+        height: 40vh;
 
 
         #column_pro {

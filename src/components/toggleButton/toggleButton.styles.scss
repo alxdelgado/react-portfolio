@@ -20,7 +20,7 @@
 .toggle-button_line {
     width: 30px; 
     height: 2px; 
-    background: white;
+    background:  #d4d4dc;
 }
 
 // Media Queries 
@@ -51,7 +51,35 @@
     .toggle-button {
         display: flex;
         margin-top: 22px;
-        margin-left: 30px;
+        margin-left: 3em;
         font-size: 1.5rem;
+    }
+}
+
+// Mobile Large - 425px
+@media screen and (max-width: 425px) {
+    .toggle-button {
+        display: flex;
+        margin-top: 22px;
+        margin-left: 3rem;
+    }
+}
+
+// Mobile Medium - 375px 
+@media screen and (max-width: 375px) {
+    .toggle-button {
+        display: flex;
+        margin-top: 22px;
+        margin-left: 3rem; 
+    }
+}
+
+
+// Mobile Small - 320px 
+@media screen and (max-width: 320px) {
+    .toggle-button {
+        display: flex;
+        margin-top: 22px;
+        margin-left: 2rem; 
     }
 }

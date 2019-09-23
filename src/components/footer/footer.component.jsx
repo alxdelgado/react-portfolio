@@ -13,13 +13,13 @@ const FooterNav = () => (
                     <ul className='footer_items' id='items_pro'>
 
                         <li className='footer_item'>
-                            <a href="https://github.com/alxdelgado" className='footer_link-item'>Github</a>
+                            <a href="https://github.com/alxdelgado" className='footer_link-item' target='_blank' rel="noopener noreferrer">Github</a>
                         </li>
                         <li className='footer_item'>
-                            <a href="https://stackoverflow.com/users/11500185/alxdelgado" className='footer_link-item'>StackOverflow</a>
+                            <a href="https://stackoverflow.com/users/11500185/alxdelgado" className='footer_link-item' target='_blank' rel="noopener noreferrer">StackOverflow</a>
                         </li>
                         <li className='footer_item'>
-                            <a href="https://www.linkedin.com/in/alexdelgadous/" className='footer_link-item'>LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/alexdelgadous/" className='footer_link-item' target='_blank' rel="noopener noreferrer">LinkedIn</a>
                         </li>
 
                     </ul>
