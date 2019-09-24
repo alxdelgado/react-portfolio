@@ -1,7 +1,7 @@
 // Style Rules
 .nav_wrapper {
     width: 100vw;
-    height: 7vh;
+    height: 8vh;
     background-color: #393f4d; 
     overflow: hidden;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5); 
@@ -87,7 +87,7 @@
 @media screen and (max-width: 1440px) {
     #headline {
         font-size: 1rem; 
-        margin-top: 25px;
+        margin-top: 30px;
         margin-left: 2em;
     }
 
@@ -113,27 +113,27 @@
 
 @media screen and (max-width: 1024px) {
     #headline {
-        font-size: 1rem; 
-        margin-top: 22px;
+        font-size: 0.7rem; 
+        margin-top: 20px;
         margin-left: 2em;
     }
 
     #resume {
-        font-size: 1rem;
-        margin-top: -18px;
-        margin-left: 11rem;
+        font-size: 0.7rem;
+        margin-top: -14px;
+        margin-left: 8rem;
     }
 
     #bucket-list {
-        font-size: 1rem;
-        margin-top: -19px;
-        margin-left: 19rem;
+        font-size: 0.7rem;
+        margin-top: -14px;
+        margin-left: 14rem;
     }
 
     #github {
-        font-size: 1rem; 
-        margin-top: -19px;
-        margin-right: 10rem;
+        font-size: 0.7rem; 
+        margin-top: -14px;
+        margin-right: 12rem;
         
     }
 }

@@ -50,9 +50,9 @@
 @media screen and (max-width: 768px) {
     .toggle-button {
         display: flex;
-        margin-top: 22px;
+        margin-top: 14px;
         margin-left: 3em;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
@@ -60,8 +60,9 @@
 @media screen and (max-width: 425px) {
     .toggle-button {
         display: flex;
-        margin-top: 22px;
-        margin-left: 3rem;
+        margin-top: 14px;
+        margin-left: 2rem;
+        font-size: 1rem;
     }
 }
 
@@ -69,8 +70,9 @@
 @media screen and (max-width: 375px) {
     .toggle-button {
         display: flex;
-        margin-top: 22px;
-        margin-left: 3rem; 
+        margin-top: 14px;
+        margin-left: 2rem; 
+        font-size: 1rem;
     }
 }
 
@@ -79,7 +81,8 @@
 @media screen and (max-width: 320px) {
     .toggle-button {
         display: flex;
-        margin-top: 22px;
-        margin-left: 2rem; 
+        margin-top: 14px;
+        margin-left: 1.5rem;
+        font-size: 1rem; 
     }
 }
