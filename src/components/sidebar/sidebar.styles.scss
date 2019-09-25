@@ -32,3 +32,31 @@
 .sideBar a:active {
     color: #C0C0C0;
 }
+
+// 4K Screens - 2560px 
+@media screen and (max-width: 2560px) {
+    .sideBar {
+        width: 700px;
+    }
+}
+
+// Mobile Large - 425px
+@media screen and (max-width: 425px) {
+    .sideBar {
+        width: 290px;
+    }
+}
+
+// Mobile Medium - 375px 
+@media screen and (max-width: 375px) {
+    .sideBar {
+        width: 250px;
+    }
+}
+
+// Mobile Small - 320px 
+@media screen and (max-width: 320px) {
+    .sideBar {
+        width: 200px;
+    }
+}

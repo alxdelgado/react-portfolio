@@ -1,4 +1,5 @@
 // Style Rules
+
 .nav_wrapper {
     width: 100vw;
     height: 8vh;
@@ -17,7 +18,7 @@
 
     #resume {
         text-decoration: none;
-        color: whitesmoke;
+        color: #d4d4dc;
     }
 }
 
@@ -27,7 +28,7 @@
     
     #bucket-list {
         text-decoration: none;
-        color: whitesmoke;
+        color: #d4d4dc;
     }
 }
 
@@ -37,7 +38,7 @@
     
     #github {
         text-decoration: none;
-        color: whitesmoke;
+        color: #d4d4dc;
         
     }
 }
@@ -49,9 +50,9 @@
     #headline {
         text-decoration: none;
         color: whitesmoke;
-
     }
 }
+
 
 
 // Media Queries 
@@ -87,7 +88,7 @@
 @media screen and (max-width: 1440px) {
     #headline {
         font-size: 1rem; 
-        margin-top: 30px;
+        margin-top: 25px;
         margin-left: 2em;
     }
 
@@ -139,6 +140,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    #headline {
+        display: none;
+    }
+
     #resume {
         display: none;
     }

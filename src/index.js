@@ -5,10 +5,13 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import SideBar from './components/sidebar/sidebar.component';
+
 
 ReactDOM.render(
     <BrowserRouter>
         <App />
+        {/* <SideBar /> */}
     </BrowserRouter>
 , document.getElementById('root')
 );

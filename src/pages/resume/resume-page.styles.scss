@@ -1,9 +1,11 @@
+// Style Rules 
 .resume_wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100vw;
     justify-content: center;
+    font-size: 1px;
 
     .resume_container {
         width: 40vw;
@@ -12,7 +14,106 @@
         flex-wrap: wrap;
         padding-top: 15px;
         padding-bottom: 30px;
+        
 
+    }
+}
+
+// 4K Screens - 2560px
+@media screen and (max-width: 2560px) {
+   .resume_wrapper {
+       width: 100vw; 
+       height: 65vh;
+
+       .resume_container {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 0.6rem;
+       }
+   }
+}
+
+// Laptop Large - 1440px
+@media screen and (max-width: 1440px) {
+    .resume_wrapper {
+        width: 100vw; 
+        height: 65vh;
+ 
+        .resume_container {
+            padding-left: 0px;
+            padding-right: 10px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 7px;
+        }
+    }
+}
+
+// Laptop - 1024px
+@media screen and (max-width: 1440px) {
+    .resume_wrapper {
+        width: 100vw; 
+        height: 65vh;
+ 
+        .resume_container {
+            padding-left: 0px;
+            padding-right: 10px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 7.5px;
+        }
+    }
+}
+
+// Tablet - 768px
+@media screen and (max-width: 768px) {
+    .resume_wrapper {
+        width: 100vw; 
+        height: 65vh;
+ 
+        .resume_container {
+            width: 50vw;
+            padding-left: 0px;
+            padding-right: 10px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 7.2px;
+        }
+    }
+}
+
+// Mobile Large - 425px
+@media screen and (max-width: 425px) {
+    .resume_wrapper {
+        width: 100vw; 
+        height: 65vh;
+ 
+        .resume_container {
+            width: 60vw;
+            padding-left: 0px;
+            padding-right: 40px;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            font-size: 6.5px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .resume_wrapper {
+        width: 100vw; 
+        height: 65vh;
+ 
+        .resume_container {
+            width: 60vw;
+            padding-left: 0px;
+            padding-right: 30px;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            font-size: 6.3px;
+        }
     }
 }
 
@@ -23,10 +124,11 @@
 
         .resume_container {
             width: 100vw;
-            padding-left: 10px;
-            padding-right: 10px;
-            padding-top: 10px;
-            padding-bottom: 30px;
+            padding-left: 0px;
+            padding-right: 40px;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            font-size: 7px;
         }
     }
 }

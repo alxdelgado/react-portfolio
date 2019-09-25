@@ -4,7 +4,8 @@ import './App.css';
 
 import ResumePage from './pages/resume/resume-page.component';
 import NavBar from './components/nav-bar/nav-bar.component';
-import HomePage from './pages/homepage/homepage.component';  
+import HomePage from './pages/homepage/homepage.component';
+import ProjectsPage from './pages/projects/projects.component';   
 import FooterNav from './components/footer/footer.component';
 import SideBar from './components/sidebar/sidebar.component'; 
 
@@ -26,17 +27,18 @@ class App extends React.Component {
   } 
 
   render() {
-    let sideBar; 
+    let SideBar; 
     if (this.state.sideBarOpen) {
-      sideBar = <SideBar />;
+      SideBar = <SideBar />;
     }
     return (
       <div className="App" style={{height: '100%'}}>
         <Switch>
-          <NavBar />
+          <NavBar sideBarClickHandler={this.sideBarToggleClickHandler} />
           {SideBar}
           <Route exact path='/' component={HomePage} />
           <Route path='/resume' component={ResumePage} />
+          <Route path='/projects' component={ProjectsPage} />
           <FooterNav />
         </Switch>
       </div>
