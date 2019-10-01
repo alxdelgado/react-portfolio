@@ -36,7 +36,29 @@
 // 4K Screens - 2560px 
 @media screen and (max-width: 2560px) {
     .sideBar {
+        width: 900px;
+    }
+}
+
+// Laptop Large - 1440px
+@media screen and (max-width: 1440px) {
+    .sideBar {
         width: 700px;
+    }
+
+}
+
+// Laptop - 1024px 
+@media screen and (max-width: 1024px) {
+    .sideBar {
+        width: 500px;
+    }
+}
+
+// Tablet - 768px 
+@media screen and (max-width: 768px) {
+    .sideBar {
+        width: 300px;
     }
 }
 

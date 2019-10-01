@@ -24,15 +24,20 @@ class App extends React.Component {
     this.setState ((prevState) => {
       return {sideBarOpen: !prevState.sideBarOpen};
     })
-  } 
+  };  
+
+  closeSideBarClickHandler = () => {
+    this.setState({sideBarOpen: false});
+  }; 
 
   render() {
     const Content = this.state.sideBarOpen ? <SideBar /> : null;
+    const Backdrop = this.state.sideBarOpen ? <SideBar /> : null; 
 
     return (
       <div className="App" style={{height: '100%'}}>
         <Switch>
-          <NavBar sideBarClickHandler={this.sideBarToggleClickHandler} />
+          <NavBar sideBarClickHandler={this.sideBarToggleClickHandler} closeSideBarHandler={this.closeSideBarClickHandler} />
           {Content}
           <Route exact path='/' component={HomePage} />
           <Route path='/resume' component={ResumePage} />
