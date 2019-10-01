@@ -28,8 +28,8 @@
        .resume_container {
         padding-left: 10px;
         padding-right: 10px;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         font-size: 0.6rem;
        }
    }
@@ -44,15 +44,15 @@
         .resume_container {
             padding-left: 0px;
             padding-right: 10px;
-            padding-top: 30px;
-            padding-bottom: 30px;
-            font-size: 7px;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            font-size: 0.7rem;
         }
     }
 }
 
 // Laptop - 1024px
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1024px) {
     .resume_wrapper {
         width: 100vw; 
         height: 65vh;
