@@ -27,15 +27,13 @@ class App extends React.Component {
   } 
 
   render() {
-    let SideBar; 
-    if (this.state.sideBarOpen) {
-      SideBar = <SideBar />;
-    }
+    const Content = this.state.sideBarOpen ? <SideBar /> : null;
+
     return (
       <div className="App" style={{height: '100%'}}>
         <Switch>
           <NavBar sideBarClickHandler={this.sideBarToggleClickHandler} />
-          {SideBar}
+          {Content}
           <Route exact path='/' component={HomePage} />
           <Route path='/resume' component={ResumePage} />
           <Route path='/projects' component={ProjectsPage} />
