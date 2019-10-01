@@ -112,6 +112,7 @@
     }
 }
 
+// Laptop - 1024px
 @media screen and (max-width: 1024px) {
     #headline {
         font-size: 0.7rem; 
@@ -122,19 +123,19 @@
     #resume {
         font-size: 0.7rem;
         margin-top: -14px;
-        margin-left: 8rem;
+        margin-left: 7rem;
     }
 
     #bucket-list {
         font-size: 0.7rem;
         margin-top: -14px;
-        margin-left: 14rem;
+        margin-left: 12rem;
     }
 
     #github {
         font-size: 0.7rem; 
         margin-top: -14px;
-        margin-right: 12rem;
+        margin-right: 10rem;
         
     }
 }
