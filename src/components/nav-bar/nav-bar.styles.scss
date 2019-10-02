@@ -140,9 +140,13 @@
     }
 }
 
+// Tablet - 768px
 @media screen and (max-width: 768px) {
     #headline {
-        display: none;
+        display: flex;
+        font-size: 0.9rem;
+        margin-top: -21px;
+        margin-left: 7em;
     }
 
     #resume {
@@ -158,3 +162,57 @@
     }
 }
 
+// Mobile Large - 425px
+@media screen and (max-width: 425px) {
+    #headline {
+        display: flex; 
+        font-size: 0.9rem; 
+        margin-top: -20px;
+        margin-left: 6.5em;
+    }
+
+    #resume {
+        display: none;
+    }
+
+    #bucket-list {
+        display: none;
+    }
+
+    #github {
+        display: none;
+    }
+}
+
+
+// Mobile Medium - 375px 
+@media screen and (max-width: 375px) {
+    #headline {
+        display: flex; 
+        font-size: 0.8rem; 
+        margin-top: -20px;
+        margin-left: 6em; 
+    }
+
+    #resume {
+        display: none;
+    }
+
+    #bucket-list {
+        display: none;
+    }
+
+    #github {
+        display: none;
+    }
+}
+
+// Mobile Small - 320px 
+@media screen and (max-width: 320px) {
+    #headline {
+        display: flex; 
+        font-size: 0.8rem; 
+        margin-top: -20px; 
+        margin-left: 6em;
+    }
+}

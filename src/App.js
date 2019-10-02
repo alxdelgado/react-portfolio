@@ -10,7 +10,7 @@ import FooterNav from './components/footer/footer.component';
 import SideBar from './components/sidebar/sidebar.component'; 
 
 
-
+// Smart Component
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -18,21 +18,19 @@ class App extends React.Component {
     this.state = {
       sideBarOpen: false
     } 
+
   }
 
+  // Handle Click method for our 'ToggleButton' component. 
   sideBarToggleClickHandler = () => {
     this.setState ((prevState) => {
       return {sideBarOpen: !prevState.sideBarOpen};
     })
-  };  
-
-  closeSideBarClickHandler = () => {
-    this.setState({sideBarOpen: false});
   }; 
+  
 
   render() {
     const Content = this.state.sideBarOpen ? <SideBar /> : null;
-    const Backdrop = this.state.sideBarOpen ? <SideBar /> : null; 
 
     return (
       <div className="App" style={{height: '100%'}}>

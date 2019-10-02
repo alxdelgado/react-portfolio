@@ -12,6 +12,7 @@ import ToggleButton from '../toggleButton/toggleButton.component';
 const NavBar = props => (
     <div className='nav_wrapper'>
         <ToggleButton click={props.sideBarClickHandler} />
+        
         <div className='nav-container'>
             <div className='headline_link'>
                 <a id='headline' href='/'><strong>Delgado</strong></a>
