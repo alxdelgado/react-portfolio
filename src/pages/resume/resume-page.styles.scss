@@ -17,9 +17,13 @@
         padding-bottom: 30px;
     }
 
-    .resume_container a {
+    .resume_container a, p, h1, em {
         text-decoration: none;
         color: #1d1e22;
+    }
+
+    .resume_container a:hover, a:active {
+        color: #C0C0C0;
     }
 }
 

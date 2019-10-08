@@ -9,9 +9,18 @@
         width: 40vw; 
     }
 
+    .projects_heading {
+        color: #1d1e22;
+    }
+
+    .projects_container p {
+        text-align: center;
+        flex-wrap: wrap;
+        color: #1d1e22;
+    }
+
     .crown-clothing-app {
         width: 40vw; 
-        text-align: left; 
-        
+        text-align: left;    
     }
 }
