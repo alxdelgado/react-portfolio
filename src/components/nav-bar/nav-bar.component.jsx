@@ -14,18 +14,18 @@ const NavBar = props => (
         <ToggleButton click={props.sideBarClickHandler} />
         
         <div className='nav-container'>
-            <div className='headline_link'>
+            <li className='headline_link'>
                 <a id='headline' href='/'><strong>Delgado</strong></a>
-            </div>
-            <div className='resume_link'>
+            </li>
+            <li className='resume_link'>
                 <a id='resume' href='/resume'>Resume</a>
-            </div>
-            <div className='bucket-list_link'>
+            </li>
+            <li className='bucket-list_link'>
                 <a id='bucket-list' href='/projects'>Projects</a>
-            </div>
-            <div className='github'>
+            </li>
+            <li className='github'>
                 <a id='github' href='https://github.com/alxdelgado' target='_blank' rel="noopener noreferrer">Github</a>
-            </div>
+            </li>
         </div>
     </div>
 );

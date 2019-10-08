@@ -2,6 +2,7 @@
 .footer {
     width: 100vw;
     overflow: hidden;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5); 
 }
 
 .footer_container {
@@ -18,7 +19,7 @@
 
 .footer_title {
     font-size: 1.7rem;
-    color: #d4d4dc;
+    color: #C0C0C0;
 }
 
 .footer_items {
@@ -40,10 +41,14 @@
 }
 
 .footer_link-item {
-    color: #d4d4dc; 
+    color: #C0C0C0; 
     cursor: pointer;
     padding: 0px;
     text-decoration: none;
+}
+
+.footer_container a:hover, a:active {
+    color: #1d1e22;
 }
 
 
