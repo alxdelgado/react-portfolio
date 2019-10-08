@@ -8,14 +8,18 @@
     
 
     .resume_container {
+        color: #1d1e22;
         width: 40vw;
         margin-left: 57px;
         text-align: left;
         flex-wrap: wrap;
         padding-top: 15px;
         padding-bottom: 30px;
-        
+    }
 
+    .resume_container a {
+        text-decoration: none;
+        color: #1d1e22;
     }
 }
 

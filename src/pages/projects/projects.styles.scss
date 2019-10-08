@@ -1,0 +1,17 @@
+.projects_wrapper {
+    width: 100vw; 
+    height: 65vh;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+
+    .projects_container {
+        width: 40vw; 
+    }
+
+    .crown-clothing-app {
+        width: 40vw; 
+        text-align: left; 
+        
+    }
+}
