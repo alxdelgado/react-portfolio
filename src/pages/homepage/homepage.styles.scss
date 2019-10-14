@@ -2,6 +2,7 @@
 .homepage_wrapper {
     width: 100vw;
     overflow: hidden;
+    overflow-x: scroll;
 
     .homepage_container {
         display: block;
@@ -12,7 +13,7 @@
         .homepage_image {
             border-radius: 70%;
             max-width: 200px;
-            margin-top: 90px;
+            margin-top: 70px;
             align-self: center;
         }
 
