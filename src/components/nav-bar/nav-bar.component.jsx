@@ -24,7 +24,7 @@ const NavBar = props => (
                 <a id='bucket-list' href='/projects'>Projects</a>
             </li>
             <li className='github'>
-                <a id='github' href='https://github.com/alxdelgado' target='_blank' rel="noopener noreferrer">Github</a>
+                <a id='github' href='https://github.com/alxdelgado' target='_blank' rel="noopener noreferrer">GitHub</a>
             </li>
         </div>
     </div>
