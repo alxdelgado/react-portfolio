@@ -2,7 +2,7 @@
 .homepage_wrapper {
     width: 100vw;
     overflow: hidden;
-    overflow-x: scroll;
+    // overflow-x: scroll;
 
     .homepage_container {
         display: block;
@@ -11,9 +11,9 @@
         align-items: center;
         
         .homepage_image {
-            border-radius: 70%;
-            max-width: 200px;
-            margin-top: 70px;
+            border-radius: 100%;
+            max-width: 150px;
+            margin-top: 150px;
             align-self: center;
         }
 
