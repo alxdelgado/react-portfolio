@@ -1,0 +1,4 @@
+// Babel Config
+{
+    "presets": ["react", "es2015"]
+}
