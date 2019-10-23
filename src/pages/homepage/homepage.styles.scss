@@ -7,7 +7,7 @@
     .homepage_container {
         display: block;
         background: whitesmoke;
-        height: 63vh;
+        height: 65vh;
         align-items: center;
         
         .homepage_image {
@@ -73,10 +73,33 @@
     }
 }
 
+// Mobile Medium - 375px
+@media screen and (min-width: 375px) and (max-width: 375px) {
+    .homepage_wrapper {
+        width: 100vw;
+        overflow: hidden;
+        overflow-x: scroll;
+        
+        .homepage_container {
+            height: 50vh;
+    
+            #alex_sick_photo {
+                max-width: 90px;
+                margin-top: 90px;
+            }
+    
+            #alex_heading {
+                font-size: 2.5rem;
+                margin-top: 15px; 
+            }
+        }
+    }
+}
+
 // Mobile Small - 320px
 @media screen and (max-width: 320px) {
     #alex_sick_photo {
-        max-width: 150px;
+        max-width: 100px;
         margin-top: 90px;
     }
 

@@ -1,7 +1,7 @@
 // Style Rules
 .projects_wrapper {
     width: 100vw; 
-    height: 65vh;
+    height: 60vh;
     display: flex; 
     flex-direction: row;
     justify-content: center;
@@ -29,13 +29,33 @@
 
 // Media Queries
 
-// // Tablet - 768px
-// @media screen and (max-width: 768px) {
-//     .projects_container {
-//         width: 40vw;
-//     }
+// iPhone X - Landscape 375 x 812px 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio) and (orientatin: landscape) {
+    .projects_wrapper {
+        width: 100vw; 
+        height: 40vh;
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center; 
+        overflow-x: scroll;     
 
-//     .crown-clothing-app {
-//         width: 50vw;
-//     }
-// }
+        .projects_container {
+            width: 40vw;
+        }
+
+        .projects_heading {
+            color: #1d1e22;
+        }
+
+        .projects_container p {
+            text-align: center;
+            flex-wrap: wrap;
+            color: #1d1e22;
+        }
+
+        .crown-clothing-app {
+            width: 40vw; 
+            text-align: left;    
+        }
+    }
+}
