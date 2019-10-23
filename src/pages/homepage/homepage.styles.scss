@@ -87,20 +87,25 @@
 }
 
 
-// iPhone X - 375 x 812px 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
-    .homepage_container {
-        display: block; 
-        height: 45vh;
+// iPhone X - Landscape 375 x 812px 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio) and (orientation: landscape) {
+    .homepage_wrapper { 
+        width: 100vw; 
+        overflow-x: scroll;
 
-        #alex_sick_photo {
-            max-width: 120px; 
-            margin-top: 9rem;
-        }
-
-        #alex_heading {
-            font-size: 2.5rem; 
-            margin-top: 15px; 
+        .homepage_container {
+            display: block; 
+            height: 70vh;
+    
+            #alex_sick_photo {
+                max-width: 90px; 
+                margin-top: 4rem;
+            }
+    
+            #alex_heading {
+                font-size: 2rem; 
+                margin-top: 10px; 
+            }
         }
     }
 }
