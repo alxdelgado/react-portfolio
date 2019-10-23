@@ -273,7 +273,7 @@
 
 
 // Mobile Small - 320px 
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
     .footer_container {
         display: column;
         height: 35vh;
@@ -308,3 +308,51 @@
         }
     }
 }
+
+// iPhone X - 375 x 812px
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    .footer_container {
+        display: column; 
+        height: 38vh;
+
+        #column_pro {
+            margin-left: 1.5em;
+            margin-top: 5px;
+
+            #professional_heading {
+                font-size: 0.8rem;
+            }
+
+            #items_pro {
+                font-size: 0.5rem;
+                margin-top: -10px;
+            }
+        }
+
+        #column_socials {
+            margin-left: 1.5em;
+            margin-top: -10px;
+            
+            #socials_heading {
+                font-size: 0.8rem;
+            }
+
+            #items_socials {
+                font-size: 0.5rem;
+                margin-top: -10px;
+            }
+        }
+    }
+}
+
+// iPhone X - Portrait & Landscape 
+// @media screen and (min-device-width: 375px) and (max-device-width: 812px) and (webkit-device-pixel-ratio : 3) {
+//     .footer_container {
+//         display: row; 
+//         height: 50vh; 
+
+//         #column_pro {
+//             margin-left: 1.5rem;
+//         } 
+//     }
+// }

@@ -76,12 +76,31 @@
 // Mobile Small - 320px
 @media screen and (max-width: 320px) {
     #alex_sick_photo {
-        max-width: 130px;
-        margin-top: 100px;
+        max-width: 150px;
+        margin-top: 90px;
     }
 
     #alex_heading {
-        font-size: 2rem;
-        margin-top: 10px;
+        font-size: 2.5rem;
+        margin-top: 15px;
+    }
+}
+
+
+// iPhone X - 375 x 812px 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    .homepage_container {
+        display: block; 
+        height: 45vh;
+
+        #alex_sick_photo {
+            max-width: 120px; 
+            margin-top: 9rem;
+        }
+
+        #alex_heading {
+            font-size: 2.5rem; 
+            margin-top: 15px; 
+        }
     }
 }

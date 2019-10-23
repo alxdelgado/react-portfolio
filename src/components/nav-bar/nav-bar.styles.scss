@@ -138,8 +138,7 @@
     #github {
         font-size: 0.7rem; 
         margin-top: -14px;
-        margin-right: 10rem;
-        
+        margin-right: 10rem;  
     }
 }
 
@@ -218,4 +217,60 @@
         margin-top: -20px; 
         margin-left: 6em;
     }
+}
+
+// iPhone X - 375 x 812px 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    #headline {
+        display: flex; 
+        font-size: 0.8rem; 
+        margin-top: -20px; 
+        margin-left: 6em;
+    }
+}
+
+// iPhone X - 812 x 375px - Landscape 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio) and (orientation: landscape) {
+    .nav_wrapper {
+        width: 100vw;
+        height: 15vh;
+        background-color: #393f4d; 
+        overflow: hidden;
+        box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5); 
+    }
+
+    .nav-container {
+        display: flex; 
+    }
+
+    #headline {
+        display: flex; 
+        font-size: 0.8rem; 
+        margin-top: -20px; 
+        margin-left: 6em;
+    }
+
+    #resume {
+        font-size: 0.8rem;
+        margin-top: -20px;
+        margin-left: 3rem;
+    }
+
+    #bucket-list {
+        font-size: 0.8rem;
+        margin-top: -20px;
+        margin-left: 3rem;
+    }
+
+    .github {
+        display: flex; 
+        flex-direction: flex-end;
+    }
+
+    #github {
+        font-size: 0.8rem; 
+        margin-top: -20px;
+        margin-left: 20rem;   
+    }
+
 }
