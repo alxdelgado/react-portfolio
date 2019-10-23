@@ -9,7 +9,7 @@ const ResumePage = () => (
             <h1 className='resume_heading' id='resume_heading'>Resume</h1> 
             <h2 className='resume_socials'>Internet Profiles</h2>
             <p>
-                <a href='https://github.com/alxdelgado' target='_blank' rel="noopener noreferrer">Github</a>
+                <a href='https://github.com/alxdelgado' target='_blank' rel="noopener noreferrer">GitHub</a>
                 <br/>
                 <a href='https://stackoverflow.com/users/11500185/alxdelgado' target='_blank' rel="noopener noreferrer">StackOverflow</a>
                 <br/>
