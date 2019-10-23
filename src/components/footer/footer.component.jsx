@@ -13,7 +13,7 @@ const FooterNav = () => (
                     <ul className='footer_items' id='items_pro'>
 
                         <li className='footer_item'>
-                            <a href="https://github.com/alxdelgado" className='footer_link-item' target='_blank' rel="noopener noreferrer">Github</a>
+                            <a href="https://github.com/alxdelgado" className='footer_link-item' target='_blank' rel="noopener noreferrer">GitHub</a>
                         </li>
                         <li className='footer_item'>
                             <a href="https://stackoverflow.com/users/11500185/alxdelgado" className='footer_link-item' target='_blank' rel="noopener noreferrer">StackOverflow</a>
