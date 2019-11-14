@@ -142,8 +142,8 @@
     }
 }
 
-// Tablet - 768px
-@media screen and (max-width: 768px) {
+// Tablet - 768px - Portrait Mode
+@media only screen and (max-width: 768px) and (orientation: landscape) {
     #headline {
         display: flex;
         font-size: 0.9rem;
