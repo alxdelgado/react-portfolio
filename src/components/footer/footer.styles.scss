@@ -7,7 +7,7 @@
 
 .footer_container {
     display: flex;
-    height: 30vh; 
+    height: 45vh; 
     background: #393f4d;
 }
 
@@ -158,11 +158,12 @@
     }
 }
 
-// Tablet - 768px
-@media only screen and (min-device-width: 679px) and (max-device-width: 768px) and (orientation: portrait) {
+// Tablet - 768px - Portrait Mode
+@media only screen and (max-width: 768px) and (orientation: portrait) {
     .footer_container {
+        display: flex;
         flex-direction: column;
-        height: 45vh;
+        height: 58vh;
         
 
         #column_pro {
@@ -203,7 +204,7 @@
     .footer_container {
         display: flex;
         flex-direction: column;
-        height: 45vh;
+        height: 40vh;
 
         #column_pro {
             margin-left: 2em;

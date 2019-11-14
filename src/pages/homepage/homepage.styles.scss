@@ -73,6 +73,19 @@
     }
 }
 
+// Tablet - 768px - Portrait Mode
+@media only screen and (max-width: 768px) {
+    .homepage_wrapper {
+        width: 100vw;
+        overflow: hidden; 
+        overflow-x: scroll;
+
+        .homepage_container {
+            height: 45vh;
+        }
+    }
+}
+
 // Mobile Medium - 375px
 @media screen and (min-width: 375px) and (max-width: 375px) {
     .homepage_wrapper {
@@ -111,24 +124,24 @@
 
 
 // iPhone X - Landscape 375 x 812px 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio) and (orientation: landscape) {
-    .homepage_wrapper { 
-        width: 100vw; 
-        overflow-x: scroll;
+// @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio) and (orientation: landscape) {
+//     .homepage_wrapper { 
+//         width: 100vw; 
+//         overflow-x: scroll;
 
-        .homepage_container {
-            display: block; 
-            height: 65vh;
+//         .homepage_container {
+//             display: block; 
+//             height: 65vh;
     
-            #alex_sick_photo {
-                max-width: 90px; 
-                margin-top: 3.5rem;
-            }
+//             #alex_sick_photo {
+//                 max-width: 90px; 
+//                 margin-top: 3.5rem;
+//             }
     
-            #alex_heading {
-                font-size: 2rem; 
-                margin-top: 10px; 
-            }
-        }
-    }
-}
+//             #alex_heading {
+//                 font-size: 2rem; 
+//                 margin-top: 10px; 
+//             }
+//         }
+//     }
+// }
