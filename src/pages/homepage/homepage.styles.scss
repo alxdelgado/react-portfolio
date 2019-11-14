@@ -121,14 +121,24 @@
 
 // Mobile Small - 320px
 @media screen and (max-width: 320px) {
-    #alex_sick_photo {
-        max-width: 100px;
-        margin-top: 90px;
-    }
-
-    #alex_heading {
-        font-size: 2.5rem;
-        margin-top: 15px;
+    .homepage_wrapper {
+        width: 100vw;
+        overflow: hidden;
+        overflow-x: scroll;
+        
+        .homepage_container {
+            height: 60vh;
+    
+            #alex_sick_photo {
+                max-width: 90px;
+                margin-top: 9em;
+            }
+    
+            #alex_heading {
+                font-size: 2.5rem;
+                margin-top: 15px; 
+            }
+        }
     }
 }
 
