@@ -220,20 +220,20 @@
 }
 
 // iPhone X - 375 x 812px 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
-    #headline {
-        display: flex; 
-        font-size: 0.8rem; 
-        margin-top: -20px; 
-        margin-left: 6em;
-    }
-}
+// @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+//     #headline {
+//         display: flex; 
+//         font-size: 0.8rem; 
+//         margin-top: -20px; 
+//         margin-left: 6em;
+//     }
+// }
 
 // iPhone X - 812 x 375px - Landscape 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio) and (orientation: landscape) {
     .nav_wrapper {
         width: 100vw;
-        height: 15vh;
+        height: 13vh;
         background-color: #393f4d; 
         overflow: hidden;
         box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5); 
