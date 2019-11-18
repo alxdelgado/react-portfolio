@@ -1,7 +1,9 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Switch, Route } from 'react-router-dom';
 import './App.css';
-  
+
+import ErrorBoundary from './components/error-boundary/error-boundary.component';
+
 // Lazy Loading
 const HomePage = lazy(() => import ('./pages/homepage/homepage.component'));
 const ResumePage = lazy(() => import('./pages/resume/resume-page.component'));
@@ -37,14 +39,16 @@ class App extends React.Component {
     return (
       <div className="App" style={{height: '100%'}}>
         <Switch>
-          <Suspense fallback={<div>Loading...</div>}>
-            <NavBar sideBarClickHandler={this.sideBarToggleClickHandler} closeSideBarHandler={this.closeSideBarClickHandler} />
-            {Content}
-            <Route exact path='/' component={HomePage} />
-            <Route path='/resume' component={ResumePage} />
-            <Route path='/projects' component={ProjectsPage} />
-            <FooterNav />
-          </Suspense>
+          <ErrorBoundary>
+            <Suspense fallback={<div>Loading...</div>}>
+              <NavBar sideBarClickHandler={this.sideBarToggleClickHandler} closeSideBarHandler={this.closeSideBarClickHandler} />
+              {Content}
+              <Route exact path='/' component={HomePage} />
+              <Route path='/resume' component={ResumePage} />
+              <Route path='/projects' component={ProjectsPage} />
+              <FooterNav />
+            </Suspense>
+          </ErrorBoundary>
         </Switch>
       </div>
     );
