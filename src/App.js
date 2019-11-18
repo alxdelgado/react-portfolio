@@ -1,17 +1,16 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Switch, Route } from 'react-router-dom';
 import './App.css';
-
-import ResumePage from './pages/resume/resume-page.component';
-import NavBar from './components/nav-bar/nav-bar.component';
-// import HomePage from './pages/homepage/homepage.component';
-import ProjectsPage from './pages/projects/projects.component';   
-import FooterNav from './components/footer/footer.component';
-import SideBar from './components/sidebar/sidebar.component'; 
-
-
+  
 // Lazy Loading
 const HomePage = lazy(() => import ('./pages/homepage/homepage.component'));
+const ResumePage = lazy(() => import('./pages/resume/resume-page.component'));
+const ProjectsPage = lazy(() => import('./pages/projects/projects.component'));
+const NavBar = lazy(() => import('./components/nav-bar/nav-bar.component'));
+const FooterNav = lazy(() => import('./components/footer/footer.component'));
+const SideBar = lazy(() => import('./components/sidebar/sidebar.component'));
+
+
 
 // Smart Component
 class App extends React.Component {
@@ -38,14 +37,14 @@ class App extends React.Component {
     return (
       <div className="App" style={{height: '100%'}}>
         <Switch>
-          <NavBar sideBarClickHandler={this.sideBarToggleClickHandler} closeSideBarHandler={this.closeSideBarClickHandler} />
-          {Content}
           <Suspense fallback={<div>Loading...</div>}>
+            <NavBar sideBarClickHandler={this.sideBarToggleClickHandler} closeSideBarHandler={this.closeSideBarClickHandler} />
+            {Content}
             <Route exact path='/' component={HomePage} />
+            <Route path='/resume' component={ResumePage} />
+            <Route path='/projects' component={ProjectsPage} />
+            <FooterNav />
           </Suspense>
-          <Route path='/resume' component={ResumePage} />
-          <Route path='/projects' component={ProjectsPage} />
-          <FooterNav />
         </Switch>
       </div>
     );
