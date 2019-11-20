@@ -3,8 +3,10 @@ import React from 'react';
 import {
     FooterWrapper, 
     FooterContainer, 
-    FooterColumn,
-    FooterTitle, 
+    FooterPro,
+    FooterSocial,
+    TitlePro,
+    TitleSocial, 
     FooterUL, 
     FooterLI, 
     FooterLinks 
@@ -17,8 +19,8 @@ import {
 const FooterNav = () => (
     <FooterWrapper>
         <FooterContainer>
-                <FooterColumn>
-                    <FooterTitle>Professional</FooterTitle>
+                <FooterPro>
+                    <TitlePro>Professional</TitlePro>
                     <FooterUL>
 
                         <FooterLI>
@@ -32,10 +34,10 @@ const FooterNav = () => (
                         </FooterLI>
 
                     </FooterUL>
-                </FooterColumn>
+                </FooterPro>
 
-                <FooterColumn>
-                    <FooterTitle>Social</FooterTitle>
+                <FooterSocial>
+                    <TitleSocial>Social</TitleSocial>
                     <FooterUL>
 
                         <FooterLI >
@@ -46,7 +48,7 @@ const FooterNav = () => (
                         </FooterLI>
 
                     </FooterUL>
-                </FooterColumn>
+                </FooterSocial>
         </FooterContainer>
     </FooterWrapper>
 ); 

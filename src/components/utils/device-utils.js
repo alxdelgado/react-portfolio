@@ -7,7 +7,7 @@ const sizes = {
     tablet: 768, 
     laptop: 1024, 
     laptopLG: 1440,
-    desktop: 2560
+    desktop: 2560,
 }
 
 export const media = Object.keys(sizes).reduce((acc, label) => {
