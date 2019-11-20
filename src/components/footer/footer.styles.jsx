@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';  
 
-import { device } from '../device/device.styles';
+// import { media } from '../utils/media.styles';
+import { media } from '../utils/device-utils'; 
 
 
 
@@ -10,13 +11,13 @@ export const FooterWrapper = styled.footer`
     overflow: hidden;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
     
-    @media ${device.desktop} {
-        max-width: '2560px'; 
-    }
+    ${media.desktop`
+        max-width: 2560px; 
+    `}
 
-    @media ${device.laptopLG} {
+    ${media.laptopLG`
         max-width: '1440px'; 
-    }
+    `}
 
 `; 
 
@@ -25,40 +26,40 @@ export const FooterContainer = styled.div`
     height: 30vh; 
     background: #393f4d;
 
-    @media ${device.desktop} {
+    ${media.desktop`
         max-width: '2560px';
         display: row;
-    }
+    `}
 
-    @media ${device.laptopLG} {
+    ${media.laptopLG`
         display: row;
-    }
+    `} 
 
-    @media ${device.laptop} {
+    ${media.laptop`
         display: row; 
-    }
+    `}
 
-    @media ${device.tablet} {
+    ${media.tablet`
         display: flex;
         flex-direction: column;
         height: 45vh;
-    }
+    `}
 
-    @media ${device.mobileLG} {
+    ${media.mobileLG`
         display: flex;
         flex-direction: column;
         height: 40vh;
-    }
+    `}
 
-    @media ${device.mobileMD} {
+    ${media.mobileMD`
         flex-direction: column;
         height: 38vh;
-    }
+    `}
 
-    @media ${device.mobileSM} {
+    ${media.mobileSM`
         display: column;
         height: 35vh;
-    }
+    `}
 `; 
 
 export const FooterColumn = styled.div`
@@ -66,41 +67,41 @@ export const FooterColumn = styled.div`
     margin-left: 32em;
     margin-inline-end: -15em;
 
-    @media ${device.desktop} {
+    ${media.desktop`
         margin-left: 50em;
         margin-inline-end: -10em;
-    }
+    `}
 
-    @media ${device.laptopLG} {
+    ${media.laptopLG`
         margin-left: 24em;
         margin-inline-end: -14em;
-    }
+    `}
 
-    @media ${device.laptop} {
+    ${media.laptop`
         margin-left: 20em;
         margin-inline-end: -21em;
-    }
+    `}
 
-    @media ${device.tablet} {
+    ${media.tablet`
         margin-left: 3em;
         margin-inline-end: -23em;
         margin-top: 20px;
-    }
+    `} 
 
-    @media ${device.mobileLG} {
+    ${media.mobileLG`
         margin-left: 2em;
         margin-inline-end: -27em;
         margin-top: 20px;
-    }
+    `}
 
-    @media ${device.mobileMD} {
+    ${media.mobileMD`
         margin-left: 2em;
-    }
+    `}
 
-    @media ${device.mobileSM} {
+    ${media.mobileSM`
         margin-left: 1.5em;
         margin-top: 5px;
-    }
+    `}
 `;
 
 
@@ -108,72 +109,72 @@ export const FooterTitle = styled.h4`
     font-size: 1.7rem;
     color: #C0C0C0;
 
-    @media ${device.desktop} {
+    ${media.desktop`
         font-size: 3rem;
-    }
+    `} 
 
-    @media ${device.laptopLG} {
+    ${media.laptopLG`
         font-size: 1.5rem;
-    }
+    `}
 
-    @media ${device.laptop} {
+    ${media.laptop`
         font-size: 1.2rem;
-    }
+    `}
 
-    @media ${device.tablet} {
+    ${media.tablet`
         font-size: 1.2rem;
-    }
+    `}
 
-    @media ${device.mobileLG} {
+    ${media.mobileLG`
         font-size: 1rem;
-    }
+    `}
 
-    @media ${device.mobileMD} {
+    ${media.mobileMD`
         font-size: 0.8rem;
-    }
+    `}
 
-    @media ${device.mobileSM} {
+    ${media.mobileSM`
         font-size: 0.8rem;
-    }
+    `}
 `; 
 
 export const FooterUL = styled.ul`
     padding: 0px;
 
-    @media ${device.desktop} {
+    ${media.desktop`
         font-size: 2rem;
         margin-top: -2rem;
-    }
+    `}
 
-    @media ${device.laptopLG} {
+    ${media.laptopLG`
         font-size: 1rem;
         margin-top: -10px;
-    }
+    `}
 
-    @media ${device.laptop} {
+    ${media.laptop`
         font-size: 0.7rem;
         margin-top: -14px;
-    }
+    `}
 
-    @media ${device.tablet} {
+    ${media.tablet`
         font-size: 0.7rem;
         margin-top: -20px;
-    }
+    `}
 
-    @media ${device.mobileLG} {
+    ${media.mobileLG`
         font-size: 0.7rem;
         margin-top: -10px;
-    }
+    `}
 
-    @media ${device.mobileMD} {
+    ${media.mobileMD`
         font-size: 0.5rem;
         margin-top: -10px;
-    }
+    `}
 
-    @media ${device.mobileSM} {
+    ${media.mobileSM`
         font-size: 0.5rem;
         margin-top: -10px;
-    }
+    `}
 `;
 
 export const FooterLI = styled.li`
