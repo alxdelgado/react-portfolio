@@ -11,11 +11,9 @@ export const FooterWrapper = styled.footer`
     overflow: hidden;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
     background: #393f4d;
-    height: 30vh;
     
     ${media.desktop`
-        width: 100vw;
-        height: 30vh;
+        height: 10vh;
     `}
 
     ${media.laptopLG`
@@ -52,15 +50,16 @@ export const FooterWrapper = styled.footer`
 
 export const FooterContainer = styled.div`
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     ${media.desktop`
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     `}
 
     ${media.laptopLG`
-        display: row;
+        display: flex;
+        flex-direction: column;
     `} 
 
     ${media.laptop`
@@ -91,20 +90,36 @@ export const FooterContainer = styled.div`
 `; 
 
 export const FooterPro = styled.div`
-    text-align: left; 
+    text-align: left;
+    display: flex; 
+    flex-direction: column; 
 
     ${media.desktop`
-        margin-left: 55em;
-        margin-top: 0em;
+        
+
+    `}
+
+    ${media.laptopLG`
+        margin-left: 2em;
+        padding-left: 25em;
     `}
 `;
 
 export const FooterSocial = styled.div`
     text-align: left;
+    display: flex; 
+    flex-direction: column;
     
     ${media.desktop`
-        margin-left: 95em;
-        margin-top: -19em;
+        
+    `}
+
+    ${media.laptopLG`
+        margin-left: 2em;
+        margin-top: -14em;
+        padding-left: 52em;
+        padding-bottom: 0em;
+        
     `}
 `;
 

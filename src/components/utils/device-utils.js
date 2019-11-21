@@ -1,6 +1,7 @@
 import { css } from 'styled-components';
 
-const sizes = { 
+
+const size = { 
     mobileSM: 320, 
     mobileMD: 375, 
     mobileLG: 425, 
@@ -10,9 +11,9 @@ const sizes = {
     desktop: 2560,
 }
 
-export const media = Object.keys(sizes).reduce((acc, label) => {
+export const media = Object.keys(size).reduce((acc, label) => {
     acc[label] = (...args) => css`
-        @media (min-width: ${sizes[label] / 16}em) {
+        @media (min-width: ${size[label] / 16}em) {
             ${css(...args)};
         }
     `;
@@ -20,3 +21,12 @@ export const media = Object.keys(sizes).reduce((acc, label) => {
     return acc
 }, {})
 
+// export const media = {
+//     mobileSM: `(min-width: ${size.mobileSM})`, 
+//     mobileMD: `(min-width: ${size.mobileMD})`, 
+//     mobileLG: `(min-width: ${size.mobileLG})`, 
+//     tablet: `(min-width: ${size.tablet})`, 
+//     laptop: `(min-width: ${size.laptop})`, 
+//     laptopLG: `(min-width: ${size.laptopLG})`, 
+//     desktop: `(min-width: ${size.desktop})`
+// };
