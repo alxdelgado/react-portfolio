@@ -13,6 +13,7 @@ export const FooterWrapper = styled.footer`
     background: #393f4d;
     
     ${media.desktop`
+        width: 100vw;
         height: 10vh;
     `}
 
@@ -101,7 +102,7 @@ export const FooterPro = styled.div`
 
     ${media.laptopLG`
         margin-left: 2em;
-        padding-left: 25em;
+        padding-left: 29em;
     `}
 `;
 
@@ -117,7 +118,7 @@ export const FooterSocial = styled.div`
     ${media.laptopLG`
         margin-left: 2em;
         margin-top: -14em;
-        padding-left: 52em;
+        padding-left: 57em;
         padding-bottom: 0em;
         
     `}

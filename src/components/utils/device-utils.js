@@ -1,6 +1,5 @@
 import { css } from 'styled-components';
 
-
 const size = { 
     mobileSM: 320, 
     mobileMD: 375, 
